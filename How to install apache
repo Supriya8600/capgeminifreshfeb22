@@ -3,7 +3,7 @@ yum install httpd
 service httpd start
 service httpd status
 chkconfig httpd on
-sh -c "echo 'Hello from gopal webserver' > /var/www/html/index.html"
+sh -c "echo 'Hello from supriya webserver' > /var/www/html/index.html"
 cat /var/www/html/index.html
 curl localhost
 
